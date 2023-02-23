@@ -1,0 +1,246 @@
+
+@font-face {
+    font-family: Quite;
+    src: url(../fonts/Quite\ Chocolatey.ttf);
+}
+@font-face {
+    font-family: Montsserat-bold;
+    src: url(../fonts/Montserrat-Bold.ttf)
+}
+@font-face {
+    font-family: Montsserat-regular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: couture;
+    src: url(../fonts/couture-bld.otf);
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(152,152,235,1) 0%, rgba(51,121,136,1) 53%, rgba(1,241,228,1) 93%, rgba(0,212,255,1) 97%);}
+.startpage {
+    max-width: 1200px;
+    height: 690px;
+    margin: 0 auto;
+    background-image: url(../img/bgi.png);
+}
+.container {
+    max-width: 1012px;
+    margin: 0 auto;
+}
+.menu__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.logotype {
+    font-family: quite;
+    color: #ffffff;
+    font-size: 60px;
+    margin-top: 47px;
+}
+.nav {
+    font-family: montsserat-regular;
+    list-style-type: none;
+    margin: 70px 0;
+    display: flex;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 18px;
+}
+.nav li a:hover {
+    background-color: #130e27;
+    color: white;
+    border-radius: 5px;
+}
+.content {
+    width: 500px;
+    height: 285px;
+    margin-top: 150px;
+}
+.content p {
+    color: white;
+    font-size: 20px;
+    font-family: pt serif;
+    font-weight: 100px;   
+}
+.content h1 {
+    font-family: montsserat-bold;
+    line-height: 20px;
+    text-transform: uppercase; 
+}
+.shapka1 {
+    font-size: 80px;
+    color: #130e27;
+}
+.shapka2 {
+    font-size: 80px;
+    color: white;
+    padding-bottom: 35px;
+}
+.services {
+    max-width: 1200px;
+    height: 483px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.title {
+    display: flex;  
+}
+.block_icons {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 90px;
+}
+.item {
+    width: 170px;
+    height: 250px;
+    text-align: center;
+    font-family: serif;    
+    font-size: 20px;
+}
+.title h1 {
+    margin: 0 18px 0 0;
+    padding-top: 40px;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: left;
+    font-family: couture;
+}
+.title h1:nth-child(1) {
+    color: #c62314;
+}
+.item img {
+    height: 140px;
+    padding-bottom: 25px;
+}
+.block_line {
+    max-width: 1200px;
+    height: 120px;
+    background-color: #130e27;
+    margin: 0 auto;
+}
+.story {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 33px;
+}
+.text {
+    font-size: 20px;
+    color: white;
+    margin-right: 120px;
+    line-height: 1.4;
+}
+.knopka button {
+    width: 268px;
+    height: 63px;
+    background-color: #c62314;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;   
+}
+.knopka span {
+    color:  white;
+    font-family: montsserat-regular;
+    text-transform: uppercase;
+    font-size: 22px;       
+}
+.block_price {
+    max-width: 1200px;
+    height: 614px;
+    background-color: #efefef;
+    margin: 0 auto;
+}
+.block_price h1 {
+    margin: 0;
+    padding-top: 63px;
+    text-align: center;
+    color: #130e27;
+    text-transform: uppercase;
+    font-family: montsserat-bold;
+}
+.block_item1 {
+    margin-top: 58px;
+    display: flex;
+    justify-content: space-around;
+}
+.item1 {
+    width: 316px;
+    height: 389px;
+    background-color: #fff;
+    text-align: center;
+}
+.item1 h2 {
+    font-size: 60px;
+    color: #c62314;
+    text-transform: uppercase;
+    font-family: montsserat-bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.item1 p:nth-child(1){
+    font-size: 22px;
+    margin-top: 34px;
+    margin-bottom: 20px;
+}
+.item1 p {
+    font-size: 20px;
+}
+.scroll {
+    margin: 5px auto;
+}
+.knopka2    {
+    width: 204px;
+    height: 50px;
+    background-color: #130e27;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 29px;
+}
+.knopka2 span {
+    color:  white;
+    font-family: montsserat-regular;
+    text-transform: uppercase;
+    font-size: 22px; 
+}
+.knopka2:hover {
+    background-color: #c62314;
+}
+.end_page {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #130e27;
+    height: 188px;
+}
+.block_end {
+    display: flex;
+    justify-content: space-between;
+}
+.designe_text {
+    margin-top: 85px;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+}
+.designe_text span {
+    color: #911b1c;
+}
+.design_logo {
+    margin-top: 70px;
+    margin-right: 40px;
+    font-size: 60px;
+    color: #c62314;
+    font-family: quite;
+}
+  
+  
